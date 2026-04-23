@@ -14,6 +14,8 @@ public class AdventureTime
             Scanner userInput = new Scanner(System.in);
             FileReader fileReader = new FileReader("adventure.csv");
 
+            //string[0] = input.split("\\|");
+
 
 
 
