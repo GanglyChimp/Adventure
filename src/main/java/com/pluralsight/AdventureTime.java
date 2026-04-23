@@ -1,9 +1,29 @@
 package com.pluralsight;
 
+import java.io.FileReader;
+import java.util.Scanner;
+
 public class AdventureTime
 {
     public static void main()
+
     {
+        try
+        {
+
+            Scanner userInput = new Scanner(System.in);
+            FileReader fileReader = new FileReader("adventure.csv");
+
+
+
+
+        }
+
+        catch (Exception ex)
+        {
+
+        }
+    }
         //create user character
 
 
@@ -36,5 +56,4 @@ public class AdventureTime
 
 
         //end goal is a story completed
-    }
 }
